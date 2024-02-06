@@ -1,0 +1,102 @@
+* {
+  font-family: Gilroy-Bold;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    border: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .menu {
+    display: inline-block;
+  }
+  
+  .menu_link,
+  .home_link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+  
+    margin: 20px;
+  
+    color: rgb(0, 0, 0);
+  }
+  .home_link {
+    color: rgb(242, 88, 34);
+  }
+  .top__content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  
+    margin-top: 95px;
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .SEO_text {
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 400;
+    line-height: -1;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  .text {
+    color: rgb(136, 136, 136);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: -1;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+  
+  .buttons {
+    display: flex;
+    align-content: center;
+  }
+  
+  .button_left,
+  .button_right {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2.5;
+    width: 140px;
+  }
+  .button_left {
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+    margin-right: 70px;
+  
+    border: rgb(2, 221, 20);
+    color: rgb(255, 255, 255);
+  }
+  .button_right {
+    color: rgb(170, 170, 170);
+    background: rgb(255, 255, 255);
+  }
+
+  .top__logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+  }
+  .imaging__foot {
+    size: 50px;
+    margin:10px ;
+  }
+  
