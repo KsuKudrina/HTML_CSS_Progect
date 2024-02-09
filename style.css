@@ -1,102 +1,152 @@
 * {
-  font-family: Gilroy-Bold;
-  }
-  a {
-    text-decoration: none;
-  }
-  button {
-    border: none;
-  }
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .menu {
-    display: inline-block;
-  }
-  
-  .menu_link,
-  .home_link {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0%;
-    text-align: left;
-  
-    margin: 20px;
-  
-    color: rgb(0, 0, 0);
-  }
-  .home_link {
-    color: rgb(242, 88, 34);
-  }
-  .top__content {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  
-    margin-top: 95px;
-  }
-  
-  .left {
-    width: 25%;
-  }
-  
-  .SEO_text {
-    color: rgb(0, 0, 0);
-    font-size: 60px;
-    font-weight: 400;
-    line-height: -1;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-  .text {
-    color: rgb(136, 136, 136);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: -1;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-  
-  .buttons {
-    display: flex;
-    align-content: center;
-  }
-  
-  .button_left,
-  .button_right {
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 2.5;
-    width: 140px;
-  }
-  .button_left {
-    border-radius: 50px;
-    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
-    background: rgb(242, 88, 34);
-    margin-right: 70px;
-  
-    border: rgb(2, 221, 20);
-    color: rgb(255, 255, 255);
-  }
-  .button_right {
-    color: rgb(170, 170, 170);
-    background: rgb(255, 255, 255);
-  }
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
 
-  .top__logo {
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    background: rgb(255, 255, 255);
-    align-items: center;
-  }
-  .imaging__foot {
-    size: 50px;
-    margin:10px ;
-  }
-  
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1600px;
+  margin: auto;
+  width: 80%;
+  gap: 50px;
+}
+
+button {
+  border: none;
+}
+
+.header {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+
+.menu {
+  display: inline-block;
+}
+
+.menu_link,
+.home_link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.home_link {
+  color: rgb(242, 88, 34);
+}
+
+.top__content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 95px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.SEO__text {
+  color: rgb(0, 0, 0);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.text {
+  color: rgb(136, 136, 136);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 20px 0px;
+}
+
+.buttons {
+  margin-top: 40px;
+  justify-content: start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.button_left,
+.button_right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button_left {
+  justify-content: center;
+  padding: 15px 25px 15px 25px;
+  border-radius: 50px;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  background: rgb(242, 88, 34);
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.button_right {
+  color: rgb(170, 170, 170);
+  background: rgb(255, 255, 255);
+
+  justify-content: flex-start;
+  padding: 0px;
+  margin: 0px 48px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.right {
+  display: flex;
+  justify-items: center;
+  width: 50%;
+}
+
+.top__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 100px 0px 100px 0px;
+  background: rgb(255, 255, 255);
+}
+
+.imaging__foot {
+  size: 50px;
+  margin: 10px;
+}
